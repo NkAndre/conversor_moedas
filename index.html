@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>conversor de moedas</title>
+    <script type="module" src="./src/js/main.js" defer></script>
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
-    
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Conversor de Moedas</h1>
+        </header>
+
+        <form id="converter-form" class="converter-card">
+            <div class="field">
+                <label for="amount">Valor</label>
+                <input type="number" id="amount" step="0.01" required placeholder="0,00">
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label for="from-currency">De</label>
+                    <select id="from-currency"></select>
+                </div>
+
+                <div class="field">
+                    <label for="to-currency">Para</label>
+                    <select id="to-currency"></select>
+                </div>
+            </div>
+
+            <button type="submit" id="convert-btn">Converter Agora</button>
+        </form>
+
+        <footer id="result-display" class="result-card hidden">
+            <span class="label">Resultado:</span>
+            <strong id="result-value">---</strong>
+        </footer>
+    </div>
+
 </body>
+
 </html>

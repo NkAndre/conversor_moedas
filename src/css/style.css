@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary: #204eb2;
+    --secondary: #64748b;
+    --success: #22c55e;
+    --bg-app: #f1f5f9;
+}
+body{
+    background-color: var(--primary);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Layout */
+.app-container {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
