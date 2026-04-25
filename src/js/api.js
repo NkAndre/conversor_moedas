@@ -1,0 +1,1 @@
+//consumos de dados(fetch)
