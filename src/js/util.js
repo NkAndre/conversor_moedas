@@ -1,1 +1,2 @@
-//formatados e auxiliares
+//formatados e auxiliares7
+console.log('hello world')
