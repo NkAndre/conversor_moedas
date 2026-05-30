@@ -1,15 +1,13 @@
-// o "cérebro" que importa os 
-
-import { carregarMoedas } from "./ui.js";
-
-carregarMoedas();
-
-import { buscarCotacao } from "./api.js";
-import { converterMoeda } from "./util.js";
+// o "cérebro" que importa os modules 
 import {
+    carregarMoedas,
     obterDadosFormulario,
     exibirResultado
 } from "./ui.js";
+import { buscarCotacao } from "./api.js";
+import { converterMoeda } from "./util.js";
+
+carregarMoedas();
 
 const formulario = document.querySelector("#converter-form");
 

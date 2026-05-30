@@ -6,5 +6,5 @@ export async function buscarCotacao(moedaOrigem,moedaDestino) {
     const resposta = await fetch (link);
     const dados = await resposta.json();
 
-    return dados[`${moedaOrigem}${moedaDestino}`].bid;
-}
+    return Number (dados[`${moedaOrigem}${moedaDestino}`].bid);
+}                                                                                                           

@@ -1,5 +1,5 @@
 // manipulacao do DOM  → pega valores da tela e mostra resultados.
-
+import { formatarMoeda } from "./util.js";
 export function obterDadosFormulario() {
     return {
         valor: Number(document.querySelector("#amount").value),
@@ -8,19 +8,17 @@ export function obterDadosFormulario() {
     };
 }
 
+ // fuction de exibicao de resultado
 export function exibirResultado(valor, moeda) {
     const resultadoCard = document.querySelector("#result-display");
     const resultadoValor = document.querySelector("#result-value");
 
-    resultadoValor.textContent =
-        new Intl.NumberFormat("pt-BR", {
-            style: "currency",
-            currency: moeda
-        }).format(valor);
+    resultadoValor.textContent = formatarMoeda(valor, moeda);
 
     resultadoCard.classList.remove("hidden");
 }
 
+//fuction de load das moedas
 export function carregarMoedas() {
     const moedas = ["BRL", "USD", "EUR", "GBP"];
 
