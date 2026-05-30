@@ -1,1 +1,1 @@
-// manipulacao do DOM
+// manipulacao do DOM  → pega valores da tela e mostra resultados.
