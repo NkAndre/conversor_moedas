@@ -27,7 +27,7 @@ Uma aplicação web simples, rápida e responsiva para conversão de moedas em t
 
  No terminal, bash ou powershell, rode :
   
-  git clone : https://github.com/NkAndre/conversor_moedas.git
+  git clone  https://github.com/NkAndre/conversor_moedas.git
 
   cd conversor_moedas
 
