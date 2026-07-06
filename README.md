@@ -32,6 +32,8 @@ Uma aplicação web simples, rápida e responsiva para conversão de moedas em t
   cd conversor_moedas
 
   npm install
+
+  npm run dev
   
 
 ## Estrutura do Projeto
