@@ -23,7 +23,7 @@ Uma aplicação web simples, rápida e responsiva para conversão de moedas em t
 ---
 
 ```
-## Como executar 
+ Como executar 
 
  No terminal, bash ou powershell, rode :
   
@@ -36,7 +36,7 @@ Uma aplicação web simples, rápida e responsiva para conversão de moedas em t
   npm run dev
   
 
-## Estrutura do Projeto
+ Estrutura do Projeto
 
 ```text
 ├── src/                # Código-fonte da aplicação
