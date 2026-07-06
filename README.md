@@ -24,6 +24,7 @@ Uma aplicação web simples, rápida e responsiva para conversão de moedas em t
 
 ## Estrutura do Projeto
 
+```text
 ├── src/                # Código-fonte da aplicação
 │   ├── css/
 │   │   └── style.css   # Estilização e diretivas do Tailwind CSS
