@@ -19,3 +19,23 @@ Uma aplicação web simples, rápida e responsiva para conversão de moedas em t
     <img src="https://skillicons.dev/icons?i=html,css,javascript,tailwind" />
   </a>
 </p>
+
+---
+
+## Estrutura do Projeto
+
+├── src/                # Código-fonte da aplicação
+│   ├── css/
+│   │   └── style.css   # Estilização e diretivas do Tailwind CSS
+│   └── js/             # Módulos JavaScript (ES6)
+│       ├── api.js      # Gerenciamento de requisições e consumo da API
+│       ├── main.js     # Ponto de entrada (inicialização do app)
+│       ├── ui.js       # Manipulação do DOM e atualizações da interface
+│       └── util.js     # Funções utilitárias (formatações, cálculos, etc.)
+├── .gitignore          # Arquivos e pastas ignorados pelo Git (ex: node_modules)
+├── index.html          # Página principal HTML da aplicação
+├── package-lock.json   # Histórico detalhado das dependências instaladas
+├── package.json        # Configurações do projeto e scripts do Tailwind
+└── README.md           # Documentação do projeto
+
+---
